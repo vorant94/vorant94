@@ -23,3 +23,8 @@
 - 📫 How to reach me: [Telegram](https://t.me/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
 - 😄 Pronouns: apache helicopter🌚
 - ⚡ Fun fact: I nailded Orphan of Kos on the first try (if you know you know😉)
+
+
+#### Latest posts
+
+- **26.01.2021** - [Skin replacement in Angular after image build](https://medium.com/@vorant94/skin-replacement-in-angular-after-image-build-bfeb7d2be3f6) - *Medium*
