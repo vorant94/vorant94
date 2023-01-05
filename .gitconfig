@@ -1,0 +1,9 @@
+[core]
+        editor = nano
+        autocrlf = input
+[init]
+        defaultBranch = master
+[alias]
+        s = status -sb
+        l = log --graph --decorate --pretty=oneline --abbrev-commit
+        r = reset --hard HEAD
