@@ -7,3 +7,6 @@
         s = status -sb
         l = log --graph --decorate --pretty=oneline --abbrev-commit
         r = reset --hard HEAD
+        ca = commit --amend --no-edit
+[push]
+        autoSetupRemote = true
