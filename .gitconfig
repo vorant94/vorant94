@@ -9,5 +9,6 @@
         r = reset --hard HEAD
         ca = commit --amend --no-edit -a
         pf = push --force
+        f = fetch --all -p
 [push]
         autoSetupRemote = true
