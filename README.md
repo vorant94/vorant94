@@ -26,4 +26,5 @@
 
 #### Latest posts
 
-- **26.01.2021** - [Skin replacement in Angular after image build](https://medium.com/@vorant94/skin-replacement-in-angular-after-image-build-bfeb7d2be3f6) - _Medium_
+- **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](https://vorant94.medium.com/pitfalls-with-aws-amplify-serverless-containers-ba9e2e87a6f) - _Medium_
+- **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](https://vorant94.medium.com/skin-replacement-in-angular-after-image-build-bfeb7d2be3f6) - _Medium_
