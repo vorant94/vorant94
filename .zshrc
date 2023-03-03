@@ -18,6 +18,7 @@ prompt typewritten
 alias pi-backup="sudo dd if=/dev/disk2 status=progress bs=16M | gzip >~/pi/full_\"$(date +%F)\".gz"
 alias reset-launchpad="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 alias reset-dock="defaults delete com.apple.dock; killall Dock"
+alias fix-app-switcher="defaults write com.apple.Dock appswitcher-all-displays -bool true; killall Dock"
 alias upgrade="mas upgrade && brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup && reset-launchpad && omz update"
 alias brew-tree="brew leaves | xargs brew deps --installed --for-each | sed \"s/^.*:/$(tput setaf 4)&$(tput sgr0)/\""
 alias npm-tree="npm list --global --depth=0"
