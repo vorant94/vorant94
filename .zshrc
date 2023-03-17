@@ -24,10 +24,10 @@ alias npm-tree="npm list --global --depth=0"
 alias rc-edit="nano ~/.zshrc"
 alias rc-reload="source ~/.zshrc"
 
-# node 16
-export PATH="/usr/local/opt/node@16/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/node@16/lib"
-export CPPFLAGS="-I/usr/local/opt/node@16/include"
+# node 18
+export PATH="/usr/local/opt/node@18/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/node@18/lib"
+export CPPFLAGS="-I/usr/local/opt/node@18/include"
 
 # jdk 11
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
