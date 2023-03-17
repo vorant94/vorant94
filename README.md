@@ -18,7 +18,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 - 🔭 I’m currently working at [Lendai](https://lendai.us)
-- 🌱 I’m currently learning [Flutter](https://flutter.dev) to develop my own little mobile app
+- 🌱 I’m currently exploring [Flutter](https://flutter.dev) to develop my own little [mobile app](https://github.com/vorant94/photo-inbox)
 - 🐧 I've got a [Raspberry Pi](https://raspberrypi.com) and using it as a home server with a bunch of self-hosted apps
 - 📫 How to reach me: [Telegram](https://t.me/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
 - 😄 Pronouns: apache helicopter🌚
