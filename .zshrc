@@ -23,6 +23,7 @@ alias upgrade="mas upgrade && brew update && brew upgrade && brew upgrade --cask
 alias npm-tree="npm list --global --depth=0"
 alias rc-edit="nano ~/.zshrc"
 alias rc-reload="source ~/.zshrc"
+alias kill-4200="lsof -ti:4200 | xargs kill"
 
 # node 18
 export PATH="/usr/local/opt/node@18/bin:$PATH"
