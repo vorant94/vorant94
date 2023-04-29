@@ -25,6 +25,9 @@ alias rc-edit="nano ~/.zshrc"
 alias rc-reload="source ~/.zshrc"
 alias kill-4200="lsof -ti:4200 | xargs kill"
 
+# disable some zsh autocorrections
+alias npm='nocorrect npm'
+
 # node 18
 export PATH="/usr/local/opt/node@18/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/node@18/lib"
