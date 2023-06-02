@@ -17,6 +17,9 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
 - 🔭 I’m currently working at [Lendai](https://lendai.us)
 - 🌱 I’m currently exploring [Flutter](https://flutter.dev) to develop my own little [mobile app](https://github.com/vorant94/photo-inbox)
 - 🐧 I've got a [Raspberry Pi](https://raspberrypi.com) and using it as a home server with a bunch of self-hosted apps
