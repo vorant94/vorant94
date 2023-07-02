@@ -19,7 +19,13 @@ alias pi-backup="sudo dd if=/dev/disk2 status=progress bs=16M | gzip >~/pi/full_
 alias reset-launchpad="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 alias reset-dock="defaults delete com.apple.dock; killall Dock"
 alias fix-appswitcher="defaults write com.apple.Dock appswitcher-all-displays -bool true; killall Dock"
-alias upgrade="mas upgrade && brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup && reset-launchpad && omz update"
+alias upgrade="(
+mas upgrade
+brew update && brew upgrade && brew upgrade --cask --greedy && brew cleanup
+npm update -g
+reset-launchpad
+omz update
+)"
 alias npm-tree="npm list --global --depth=0"
 alias rc-edit="nano ~/.zshrc"
 alias rc-reload="source ~/.zshrc"
