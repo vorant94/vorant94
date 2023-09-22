@@ -17,8 +17,11 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
 - 🔭 I’m currently working at [Lendai](https://lendai.us)
-- 🌱 I’m currently learning [Flutter](https://flutter.dev) to develop my own little mobile app
+- 🌱 I’m currently exploring [Telegram APIs](https://core.telegram.org/api) to develop my own little [Telegram bot](https://github.com/vorant94/sofash)
 - 🐧 I've got a [Raspberry Pi](https://raspberrypi.com) and using it as a home server with a bunch of self-hosted apps
 - 📫 How to reach me: [Telegram](https://t.me/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
 - 😄 Pronouns: apache helicopter🌚
@@ -26,4 +29,6 @@
 
 #### Latest posts
 
-- **26.01.2021** - [Skin replacement in Angular after image build](https://medium.com/@vorant94/skin-replacement-in-angular-after-image-build-bfeb7d2be3f6) - _Medium_
+- **05.07.2023** - [AWS Amplify Functions on steroids](https://vorant94.medium.com/aws-amplify-functions-on-steroids-bffbfc09960c) - _Medium_
+- **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](https://vorant94.medium.com/pitfalls-with-aws-amplify-serverless-containers-ba9e2e87a6f) - _Medium_
+- **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](https://vorant94.medium.com/skin-replacement-in-angular-after-image-build-bfeb7d2be3f6) - _Medium_
