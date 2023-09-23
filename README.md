@@ -6,7 +6,7 @@
 ![Node.JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
@@ -21,9 +21,9 @@
 ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 - 🔭 I’m currently working at [Lendai](https://lendai.us)
-- 🌱 I’m currently exploring [Telegram APIs](https://core.telegram.org/api) to develop my own little [Telegram bot](https://github.com/vorant94/sofash)
-- 🐧 I've got a [Raspberry Pi](https://raspberrypi.com) and using it as a home server with a bunch of self-hosted apps
-- 📫 How to reach me: [Telegram](https://t.me/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
+- 🌱 I’m currently writing my personal [blog](https://vorant94.io), source code of which you can check out [here](https://github.com/vorant94/vorant94.github.io)
+- 🐧 I've got a self-hosted home server with a bunch of apps, setup of which you can check out [here](https://github.com/vorant94/raspberry-pi)
+- 📫 How to reach me: [Medium](https://vorant94.medium.com/), [Twitter](https://twitter.com/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
 - 😄 Pronouns: apache helicopter🌚
 - ⚡ Fun fact: I nailded Orphan of Kos on the first try (if you know you know😉)
 
