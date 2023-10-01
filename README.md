@@ -24,7 +24,6 @@
 - 🌱 I’m currently writing my personal [blog](https://vorant94.io), source code of which you can check out [here](https://github.com/vorant94/vorant94.github.io)
 - 🐧 I've got a self-hosted home server with a bunch of apps, setup of which you can check out [here](https://github.com/vorant94/raspberry-pi)
 - 📫 How to reach me: [Medium](https://vorant94.medium.com/), [Twitter](https://twitter.com/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
-- 😄 Pronouns: apache helicopter🌚
 - ⚡ Fun fact: I nailded Orphan of Kos on the first try (if you know you know😉)
 
 #### Latest posts
