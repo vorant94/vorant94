@@ -21,13 +21,13 @@
 ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 - 🔭 I’m currently working at [Lendai](https://lendai.us)
-- 🌱 I’m currently writing my personal [blog](https://vorant94.io), source code of which you can check out [here](https://github.com/vorant94/vorant94.github.io)
+- 🌱 I’m currently writing my personal [blog](https://vorant94.io), source code of which you can check out [here](https://github.com/vorant94/digital-garden)
 - 🐧 I've got a self-hosted home server with a bunch of apps, setup of which you can check out [here](https://github.com/vorant94/raspberry-pi)
 - 📫 How to reach me: [Medium](https://vorant94.medium.com/), [Twitter](https://twitter.com/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
 - ⚡ Fun fact: I nailded Orphan of Kos on the first try (if you know you know😉)
 
 #### Latest posts
 
-- **05.07.2023** - [AWS Amplify Functions on steroids](https://vorant94.medium.com/aws-amplify-functions-on-steroids-bffbfc09960c) - _Medium_
-- **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](https://vorant94.medium.com/pitfalls-with-aws-amplify-serverless-containers-ba9e2e87a6f) - _Medium_
-- **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](https://vorant94.medium.com/skin-replacement-in-angular-after-image-build-bfeb7d2be3f6) - _Medium_
+- **05.07.2023** - [AWS Amplify Functions on steroids](https://www.vorant94.io/posts/aws-amplify-functions-on-steroids)
+- **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](https://www.vorant94.io/posts/pitfalls-of-aws-amplify-serverless-containers)
+- **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](https://www.vorant94.io/posts/branding-an-angular-app-with-docker-volumes-and-css3-variables)
