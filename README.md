@@ -28,6 +28,7 @@
 
 #### Latest posts
 
+- **06.10.2023** - [[What’s in my Pi?]: Pi-hole](https://www.vorant94.io/posts/whats-in-my-pi-pi-hole)
 - **05.07.2023** - [AWS Amplify Functions on steroids](https://www.vorant94.io/posts/aws-amplify-functions-on-steroids)
 - **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](https://www.vorant94.io/posts/pitfalls-of-aws-amplify-serverless-containers)
 - **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](https://www.vorant94.io/posts/branding-an-angular-app-with-docker-volumes-and-css3-variables)
