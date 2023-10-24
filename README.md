@@ -28,6 +28,7 @@
 
 #### Latest posts
 
+- **24.10.2023** - [[What’s in my Pi?]: FreshRSS](https://www.vorant94.io/posts/whats-in-my-pi-freshrss)
 - **14.10.2023** - [War in Israel](https://www.vorant94.io/posts/war-in-israel)
 - **06.10.2023** - [[What’s in my Pi?]: Pi-hole](https://www.vorant94.io/posts/whats-in-my-pi-pi-hole)
 - **05.07.2023** - [AWS Amplify Functions on steroids](https://www.vorant94.io/posts/aws-amplify-functions-on-steroids)
