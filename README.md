@@ -28,6 +28,7 @@
 
 #### Latest posts
 
+- **27.11.2023** - [Dart through the eyes of a JS/TS dev](https://www.vorant94.io/posts/dart-through-the-eyes-of-a-js-ts-dev)
 - **24.10.2023** - [[What’s in my Pi?]: FreshRSS](https://www.vorant94.io/posts/whats-in-my-pi-freshrss)
 - **14.10.2023** - [War in Israel](https://www.vorant94.io/posts/war-in-israel)
 - **06.10.2023** - [[What’s in my Pi?]: Pi-hole](https://www.vorant94.io/posts/whats-in-my-pi-pi-hole)
