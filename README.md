@@ -28,6 +28,7 @@
 
 #### Latest posts
 
+- **10.03.2024** - [Divide and conquer: right concerns to separate](https://www.vorant94.io/posts/divide-and-conquer-right-concerns-to-separate)
 - **03.01.2024** - [TypeScript Monorepos are a mess](https://www.vorant94.io/posts/typescript-monorepos-are-a-mess)
 - **05.12.2023** - [[What’s in my Pi?]: Bitwarden](https://www.vorant94.io/posts/whats-in-my-pi-bitwarden)
 - **27.11.2023** - [Dart through the eyes of a JS/TS dev](https://www.vorant94.io/posts/dart-through-the-eyes-of-a-js-ts-dev)
