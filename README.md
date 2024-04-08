@@ -20,7 +20,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-- 🔭 I’m currently working at [Lendai](https://lendai.us)
+- 🔭 I’m currently working at [Lightricks](https://www.lightricks.com/)
 - 🌱 I’m currently writing my personal [blog](https://vorant94.io), source code of which you can check out [here](https://github.com/vorant94/digital-garden)
 - 🐧 I've got a self-hosted home server with a bunch of apps, setup of which you can check out [here](https://github.com/vorant94/raspberry-pi)
 - 📫 How to reach me: [Medium](https://vorant94.medium.com/), [Twitter](https://twitter.com/vorant94), [LinkedIn](https://linkedin.com/in/vorant94/), [Facebook](https://facebook.com/vorant94)
