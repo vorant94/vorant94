@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-#### I'm a Full-Stack Developer working in Israel
+#### I'm a Full-Stack Developer living in Israel
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Node.JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
