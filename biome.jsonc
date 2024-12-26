@@ -81,7 +81,8 @@
 			".env",
 			".wrangler",
 			".vercel",
-			"data"
+			"data",
+			".obsidian"
 		]
 	},
 	"overrides": [
