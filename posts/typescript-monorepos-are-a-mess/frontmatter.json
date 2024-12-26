@@ -1,0 +1,10 @@
+{
+	"title": "TypeScript Monorepos are a mess",
+	"description": "You know how they say \"once you go black, you never go back\"? I went through it with two things: TypeScript and Monopepos, but to set them up both simultaneously was... interesting to say the least. As a result I learned a lot about JS ecosystem and I''d like to share it with you",
+	"tags": ["typescript", "node", "infra"],
+	"publishedAt": "2024-01-03",
+	"coverImage": "./cover.webp",
+	"darkCoverImage": "./cover-dark.webp",
+	"coverAlt": "Logos of Yarn, Git and TypeScript arranged like a bento box",
+	"codeUrl": "https://github.com/vorant94/typescript-monorepo"
+}
