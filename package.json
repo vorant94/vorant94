@@ -3,9 +3,11 @@
 	"scripts": {
 		"lint:check": "biome check .",
 		"lint:write": "biome check --write .",
-		"lint:write:unsafe": "biome check --write --unsafe ."
+		"lint:write:unsafe": "biome check --write --unsafe .",
+		"prepare": "lefthook install"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4"
+		"@biomejs/biome": "^1.9.4",
+		"lefthook": "^1.10.1"
 	}
 }
