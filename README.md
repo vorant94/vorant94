@@ -19,6 +19,8 @@
 ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=TestingLibrary&logoColor=white)
 ![ReactiveX](https://img.shields.io/badge/ReactiveX-B7178C?style=for-the-badge&logo=ReactiveX&logoColor=white)
 ![i18Next](https://img.shields.io/badge/i18Next-26A69A?style=for-the-badge&logo=i18Next&logoColor=white)
+![GraphQL](https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![date-fns](https://img.shields.io/badge/date_fns-770C56?style=for-the-badge&logo=date-fns&logoColor=white)
 ![Zod](https://img.shields.io/badge/zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=Biome&logoColor=white)
 ![Lefthook](https://img.shields.io/badge/Lefthook-FF1E1E?style=for-the-badge&logo=Lefthook&logoColor=white)
