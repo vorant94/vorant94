@@ -1,6 +1,6 @@
-## Hi there 👋
+# Hi there 👋
 
-#### I'm a Full-Stack Developer from Israel
+## I'm a Full-Stack Developer from Israel
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
@@ -50,7 +50,7 @@
 - 📫 How to reach me: [Telegram](https://t.me/vorant94), [Bluesky](https://bsky.app/profile/vorant94.bsky.social), [LinkedIn](https://linkedin.com/in/vorant94/)
 - ⚡ Fun fact: I nailded Orphan of Kos on the first try (if you know you know😉)
 
-#### Latest posts
+## Latest posts
 
 - **10.03.2024** - [Divide and conquer: right concerns to separate](posts/divide-and-conquer-right-concerns-to-separate/en.md)
 - **03.01.2024** - [TypeScript Monorepos are a mess](posts/typescript-monorepos-are-a-mess/en.md)
