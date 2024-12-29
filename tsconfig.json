@@ -1,0 +1,61 @@
+{
+	"compilerOptions": {
+		/* Base */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "ESNext",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+
+		/* Strictness */
+		"strict": true,
+		"verbatimModuleSyntax": true,
+		"forceConsistentCasingInFileNames": true,
+		"useDefineForClassFields": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": false,
+
+		/* Linting */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+
+		/* Bundler/Compiler */
+		"moduleResolution": "Bundler",
+		"module": "ESNext",
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+
+		/* Runtime/Framework */
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"jsx": "react-jsx",
+
+		// /* Runtime/Framework */
+		// "lib": ["ESNext"],
+		// "jsx": "react-jsx",
+		// "jsxImportSource": "hono/jsx",
+
+		/* Misc */
+		"types": [
+			//			"vite/client",
+			"@total-typescript/ts-reset",
+			// "vite-plugin-svgr/client"
+			"node"
+			// "@cloudflare/workers-types"
+		]
+	},
+	//	using unified tsconfig.json instead of separate tsconfig.json /
+	//		tsconfig.app.json / tsconfig.node.json because of two reasons:
+	//		1. separate configs with references to each other don't work well
+	//			with "noEmit": true, see https://github.com/vitejs/vite/issues/18139
+	//		2. although e2e is ran in node env, it has pieces like page.evaluate
+	//			callback, that is run in browser, so dedicated node config still
+	//			needs to include browser env as well
+	"include": ["src", "e2e", "scripts", "*.config.ts"]
+}
