@@ -1,0 +1,65 @@
+erDiagram
+	organizations {
+		string		id PK
+		timestamp	created_at
+		timestamp	updated_at
+
+		string		slug UK
+		string		name
+		boolean		is_sandbox
+	}
+
+	organization_user {
+		string		organization_id FK
+		string		user_id FK
+
+		string		role "(ADMIN, OWNER, EMPLOYEE, CUSTOMER)"
+	}
+
+	users {
+		string 		id PK
+		timestamp	created_at
+		timestamp	updated_at
+
+		string		email UK
+		timestamp	email_verified_at
+		string		status "(PENDING_VERIFICATION, ACTIVE, DISABLED)"
+		string		password_hash
+	}
+
+	verification_tokens {
+		string		token PK
+		timestamp	created_at
+		timestamp	updated_at
+
+		string		user_id FK
+
+		timestamp	expires_at
+	}
+
+	password_reset_tokens {
+		string		token PK
+		timestamp	created_at
+		timestamp	updated_at
+
+		string		user_id FK
+
+		timestamp	expires_at
+	}
+
+	sessions {
+		string		token PK
+		timestamp	created_at
+		timestamp	updated_at
+
+		string		user_id FK
+
+		timestamp	expires_at
+	}
+
+organizations ||--o{ organization_user : "has many users via"
+users ||--o{ organization_user : "belongs to organizations via"
+
+users ||--o{ verification_tokens : "has many"
+users ||--o{ password_reset_tokens : "has many"
+users ||--o{ sessions : "has many"
