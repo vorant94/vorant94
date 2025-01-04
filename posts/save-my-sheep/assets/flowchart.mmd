@@ -1,0 +1,86 @@
+flowchart TD
+	start["Start"]
+	did_hero_kill_the_target_wolf_1{"Did hero kill<br/> the target wolf?"}
+	nothing_is_happened["Nothing is happened,<br/> the story ended before it started"]
+	quest_is_missed["The quest is MISSED"]
+	finish["The end"]
+	did_wolf_kill_enough_sheep_for_peasant_to_notice["Did wolf kill enough sheep<br/> for peasant to notice?"]
+	peasant_starts_to_ask_for_help["Peasant starts to ask for help.<br/> The quest is acceptable"]
+	did_wolf_killed_all_sheep_1{"Did wolf killed<br/> all the sheep?"}
+	peasant_has_no_money_to_live_on_1["The peasant has no money to live on.<br/> He either dies from hunger or other bad end"]
+	is_quest_accepted_1{"Is quest accepted?"}
+	quest_is_failed["The quest is FAILED"]
+	did_hero_kill_the_target_wolf_2{"Did hero kill<br/> the target wolf?"}
+	hero_talks_to_peasant_1["Hero talks to peasant"]
+	is_quest_accepted_2{"Is quest accepted?"}
+	peasant_asks_how_is_it_going["Peasant asks how is it going?"]
+	peasant_asks_for_help_1["Peasant asks for help"]
+	does_hero_tell_him_that_he_killed_the_wolf{"Does hero tell him,<br/> that he killed the wolf?"}
+	does_hero_have_wolf_head{"Does hero have<br/> the wolf head?"}
+	is_quest_accepted_3{"Is quest accepted?"}
+	does_hero_agree_to_help{"Does hero agree to help?"}
+	peasant_asks_for_help_2["Hero talks to peasant.<br/> Peasant asks for help"]
+	does_hero_pretend_killing_wolf{"Does hero pretend like<br/> he killed teh wolf?"}
+	quest_is_accepted["The quest is ACCEPTED"]
+	hero_receives_reward["The hero receives the reward<br/> leaving wolf head for himself"]
+	quest_is_completed["The quest is COMPLETED"]
+	peasant_doesnt_believe["The peasant doesn't believe<br/> the hero and insists on evidence"]
+	is_target_wolf_really_dead{"Is target wolf really dead?"}
+	are_rumors_already_spread{"Are rumors already spread?"}
+	did_wolf_killed_all_sheep_2{"Did wolf killed<br/> all the sheep?"}
+	peasant_spreads_rumors{"Peasant spreads the rumors<br/> that hero is liar"}
+	peasant_has_no_money_to_live_on_2["The peasant has no money to live on.<br/> He either dies from hunger or other bad end"]
+	quest_is_faked["The quest is FAKED"]
+	did_hero_kill_the_target_wolf_3{"Did hero kill<br/> the target wolf?"}
+	hero_talks_to_peasant_2["Hero talks to peasant"]
+	peasant_yells_at_hero["The peasant yells at the hero<br/> because of all the headache he has,<br/> but after all receives heroes apologies"]
+
+	start --> did_hero_kill_the_target_wolf_1
+	did_hero_kill_the_target_wolf_1 -- yes --> nothing_is_happened
+	nothing_is_happened --> quest_is_missed
+	quest_is_missed --> finish
+	did_hero_kill_the_target_wolf_1 -- "no (Set sheep kill interval)" --> did_wolf_kill_enough_sheep_for_peasant_to_notice
+	did_wolf_kill_enough_sheep_for_peasant_to_notice -- no --> did_hero_kill_the_target_wolf_1
+	did_wolf_kill_enough_sheep_for_peasant_to_notice -- yes --> peasant_starts_to_ask_for_help
+	peasant_starts_to_ask_for_help --> did_wolf_killed_all_sheep_1
+	did_wolf_killed_all_sheep_1 -- "yes (Stop sheep kill interval)" --> peasant_has_no_money_to_live_on_1
+	peasant_has_no_money_to_live_on_1 --> is_quest_accepted_1
+	is_quest_accepted_1 -- yes --> quest_is_failed
+	quest_is_failed --> finish
+	is_quest_accepted_1 -- yes --> quest_is_missed
+	did_wolf_killed_all_sheep_1 -- no --> did_hero_kill_the_target_wolf_2
+	did_hero_kill_the_target_wolf_2 -- "yes (Stop sheep kill interval)" --> hero_talks_to_peasant_1
+	hero_talks_to_peasant_1 --> is_quest_accepted_2
+	is_quest_accepted_2 -- yes --> peasant_asks_how_is_it_going
+	peasant_asks_how_is_it_going --> does_hero_tell_him_that_he_killed_the_wolf
+	is_quest_accepted_2 -- no --> peasant_asks_for_help_1
+	peasant_asks_for_help_1 --> does_hero_tell_him_that_he_killed_the_wolf
+	does_hero_tell_him_that_he_killed_the_wolf -- yes --> does_hero_have_wolf_head
+	does_hero_tell_him_that_he_killed_the_wolf -- no --> 	is_quest_accepted_3
+	is_quest_accepted_3 -- no --> does_hero_agree_to_help
+	is_quest_accepted_3 -- yes --> did_wolf_killed_all_sheep_1
+	did_hero_kill_the_target_wolf_2 -- no --> peasant_asks_for_help_2
+	peasant_asks_for_help_2 --> does_hero_pretend_killing_wolf
+	does_hero_pretend_killing_wolf -- yes --> does_hero_have_wolf_head
+	does_hero_pretend_killing_wolf -- no --> does_hero_agree_to_help
+	does_hero_agree_to_help -- no --> did_wolf_killed_all_sheep_1
+	does_hero_agree_to_help -- yes --> quest_is_accepted
+	quest_is_accepted --> did_wolf_killed_all_sheep_1
+	does_hero_have_wolf_head -- yes --> hero_receives_reward
+	hero_receives_reward --> quest_is_completed
+	does_hero_have_wolf_head -- no --> peasant_doesnt_believe
+	peasant_doesnt_believe --> did_wolf_killed_all_sheep_1
+	quest_is_completed --> is_target_wolf_really_dead
+	is_target_wolf_really_dead -- yes --> finish
+	is_target_wolf_really_dead -- "no (The wolf kills additional sheep according to interval)" --> are_rumors_already_spread
+	are_rumors_already_spread -- yes --> did_wolf_killed_all_sheep_2
+	are_rumors_already_spread -- no --> peasant_spreads_rumors
+	peasant_spreads_rumors --> did_wolf_killed_all_sheep_2
+	did_wolf_killed_all_sheep_2 -- "yes (Stop sheep kill interval)" --> peasant_has_no_money_to_live_on_2
+	peasant_has_no_money_to_live_on_2 --> quest_is_faked
+	quest_is_faked --> finish
+	did_wolf_killed_all_sheep_2 -- no --> did_hero_kill_the_target_wolf_3
+	did_hero_kill_the_target_wolf_3 -- no --> did_wolf_killed_all_sheep_2
+	did_hero_kill_the_target_wolf_3 -- "yes (Stop sheep kill interval)" --> hero_talks_to_peasant_2
+	hero_talks_to_peasant_2 --> peasant_yells_at_hero
+	peasant_yells_at_hero --> finish
