@@ -1,8 +1,5 @@
 {
 	"title": "Dart through the eyes of a JS/TS dev",
 	"description": "Earlier this year I had an app idea (hopefully I'll write about it too), which led me out from my programmers \"homeland\", front-end web dev, to another direction. Since the idea was an app, I needed to learn mobile dev a little bit. I decided to go cross-platform with Dart & Flutter. It is my first experience of somewhat serious programming not in JS/TS and I'd like to share with you what I learned so far",
-	"tags": ["programming", "dart", "typescript"],
-	"publishedAt": "2023-11-27",
-	"coverImage": "./cover.webp",
-	"coverAlt": "Dart logo on blue background with some small icons"
+	"publishedAt": "2023-11-27"
 }

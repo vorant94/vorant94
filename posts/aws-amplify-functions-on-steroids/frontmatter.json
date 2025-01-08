@@ -1,10 +1,7 @@
 {
 	"title": "AWS Amplify Functions on steroids",
 	"description": "My journey to AWS Amplify continues and it lead me to explore possibilities of AWS Amplify Functions, a wrapper API of Amplify to easily integrate AWS Lambdas into your project. As an example project we will build a small to-do list app",
-	"tags": ["amplify", "serverless", "lambda"],
 	"publishedAt": "2023-07-05",
-	"coverImage": "./cover.webp",
-	"coverAlt": "Amplify and TypeScript logos on the blue background",
 	"related": ["pitfalls-of-aws-amplify-serverless-containers"],
 	"codeUrl": "https://github.com/vorant94/amplify-functions-on-steroids"
 }

@@ -1,8 +1,6 @@
 {
 	"title": "Pitfalls of AWS Amplify Serverless containers",
 	"description": "Recently I've got a task that led me to exploring AWS Amplify Serverless Containers and I would like to share with you the experience I earned from it. I built a small Angular app that allows to convert Word files into PDF",
-	"tags": ["amplify", "serverless", "docker"],
 	"publishedAt": "2023-01-31",
-	"related": ["aws-amplify-functions-on-steroids"],
 	"codeUrl": "https://github.com/vorant94/amplify-serverless-containers"
 }

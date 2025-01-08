@@ -139,5 +139,7 @@ While I do see this pattern in a lot of technologies today, overwhelming majorit
 
 After all nothing is perfect and is never meant to be. "Good enough" is our industry slogan, thats for sure. But having a right mental model as well as unlearning harmful parts of college education is a way to care for yourself during the activity, that takes almost as much time as you sleep. Now I have less chance to shoot myself in the foot, wish the same for you.
 
+---
+
 [^1]: Imagine you have LSP for the CSS shit like [text-overflow: ellipsis;](https://stackoverflow.com/questions/17779293/css-text-overflow-ellipsis-not-working) or [text-decoration: none;](https://stackoverflow.com/questions/1261955/inherited-text-decoration-style), that can instruct you which exact combination of rules you need to use to get what you want. Imagine you have LSP autocomplete for only relevant CSS properties on a target HTML element without leaving your IDE. Imagine you don't need to wait for a good [Can I use](https://caniuse.com/) score for CSS3 variables nor go with SCSS to get reusable styling values. This is what you get when markup, styling and code are not separated.
 [^2]: Dart allows it with partial files by the way. So there you can keep files within reasonable size as well as keep right level of encapsulation.

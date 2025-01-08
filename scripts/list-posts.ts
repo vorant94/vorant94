@@ -8,11 +8,7 @@ const frontmatterSchema = z.object({
 	title: z.string(),
 	description: z.string(),
 	publishedAt: z.coerce.date(),
-	tags: z.array(z.string()).optional(),
 	related: z.array(z.string()).optional(),
-	coverImage: z.string().optional(),
-	coverImageDark: z.string().optional(),
-	coverImageAlt: z.string().optional(),
 	codeUrl: z.string().url().optional(),
 });
 

@@ -119,8 +119,6 @@ and add it manually to `index.html`
 
 So with all this set up we have our default theme in `theme.js` and what we should do here is to add a modified copy of this file into our Docker volume. Since we are storing all theme files in one directory e.g. one volume there is no need to change `docker-compose.yml`
 
----
-
 ## Conclusion
 
 This solution not only allows us to get rid of dozens of files inside our repository, but we also now can have only one build and only one image in Docker registry for all of our customers. Also since Docker volumes have a lot of different drivers theme files can be stored not only locally on customer server, but on another dedicated host. And all we've done is just a couple of lines of code. The only thing I want to add in conclusion is a simple check list of what we've done to achieve desired behaviour:
