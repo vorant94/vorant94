@@ -1,4 +1,4 @@
-# useCallback - React isn't as simple as people think it is
+# useCallback - React isn't as simple as people consider it
 
 *Recently I switched camps from Angular to React. Comparing these two technologies head-to-head is quite naive thing to do. There is a long-standing perception in the tech world, that React may lack some features, but it is simple and elegant, while Angular is complex and heavy, but it is a "batteries included" solution. Without experience with react I had nothing to do with this perception, but now it changed. I don't agree, that React is simple and `useCallback` is my proof*
 
@@ -94,15 +94,13 @@ export const Counter: FC = () => {
 };
 ```
 
-At last we got to good quality React component, but if we look back we can notice that something odd now. Why do we have to re-create functions (or behavior in other words) of the component when it's state changes?!
+At last we got to good quality React component, but if we look back we can notice something odd now. Why do we have to re-create functions (or behavior in other words) of the component when it's state changes?!
 
-## "А ручки-то вот они!" ©️
+## "What's the catch?" ©️
 
-В JS наследование реализовано через прототипирование. Допустим, мы создали класс `Person` с полями `firstName` и `lastName`  и методом `getFullName`. Каждый инстанс этого класса имеет свои собственные `firstName` и `lastName`. Однако в то же время все они ссылаются на один единственный `getFullName`, который живет на прототипе нашего класса, а не на конкретном инстансе. Как же этот отдельно стоящий `getFullName` знает, что он вызван в контексте инстанса `person1`, а не `person2`? При помощи `this.`! Но React отказался от компонентов в виде классов давным давно, поэтому у нас нет `this.` в компонентах-функциях, поэтому авторам реакта пришлось находить решение в массиве зависимостей хука `useCallback`. И мне это кое-что напоминает.
+In JS inheritance implemented via prototyping. Lets say we have a class of `Person` with `firstName` and `secondName` fields and `getFullName` method. Each instance of this class has it's own `firstName` and `lastName`. But at the same time all of them are referencing to the one and only `getFullName`, that sits on the prototype of our class instead of specific instance. How does a standalone `getFullName` method knows, that it is being executed in the context of `person1` instance and not `person2`? With the help of `this.`! But React abandoned class-based components long time ago, so we don't have `this.` in function-based components, therefore authors of React had to find a solution in the dependency array of `useCallback`. It reminds me of something.
 
-Допустим, у нас есть како-то другой стейт, который зависит от `counter`. Назовем его `doubleCounter`, он по определению должен обновляться каждый раз, когда обновляется `counter` и React отлично с этим справляется посредством `useMemo` хука. А теперь сравните схематически использование `useCallback` и `useMemo`. Они одинаковы с точки зрения компонента! `increaseCounter` и `logCounter` по сути отвечают за описание **поведения компонента**, но он к ним относится будто они очередной его **стейт** (как `doubleCounter`), который надо обновлять исходя из зависимостей, и который надо отдельно хранить в каждом инстансе компонента!
-
-Я не знаю, какие проблемы возникали у авторов реакта, из-за которых они решили полностью отказаться от компонентов-классов. С удовольствием послушаю про это, если тут есть кто-то сведующий. Но это не меняет нашей реальности, в которой компонент - это не только производная от стейта или данных, но еще и поведение, связанное с ним. Отрицание этого будь-то осознанное или нет приводит к тому, что на бумаге терминов вроде как меньше (нет ни директив, ни сервисов, ни модулей как в том же Angular), но на практике в этот ограниченный набор категорий приходится засовывать ровно тоже количество понятий. Less is not always more
+Imagine you have another state, that depends on `counter`. Let's call it `doubleCounter`, it is by definition should be updated each time when `counter` changes and React handles well with `useMemo` hook. Now compare schematically usage of `useCallback` and `useMemo`. They are identical from the component perspective! `increaseCounter` and `logCounter` are responsible for defining **behavior of the component**, but component itself looks onto them like they are yet another **state** like `doubleCounter`, that should be updated based on dependencies and that should be stored in each instance of the component separately!
 
 ```tsx
 export const Counter: FC = () => {
@@ -128,17 +126,20 @@ export const Counter: FC = () => {
 };
 ```
 
+I don't know what are the issues, that authors of React faced, that they decided to abandon class-based components. I would be glad to hear more on it from someone who knows. But it doesn't change the fact, that component isn't only the derivative of the state or data, but also a behavior, attached to it. Denial of this either intentional or not leads to a situation, where on the paper there are less terms (there are no directives, no services or modules like in the Angular), but on practice it means you need to squeeze the same number of things into lesser amount of categories. Less in not always more
+
+
 ---
 
-Upd. по теме:
+Upd. on the matter:
 
-Оказывается, между первым и последним примерами разницы в продуктивности нет (по крайней мере в плане garbage collection)…
+Apparently, there is no performance difference between the first and last cases (at least from the perspective of garbage collection)…
 
-Суть в том как технически `useCallback` (а так же `useState`) работает:
+The deal is how `useCallback` (а так же `useState`) technically works:
 
-- на первом рендере, прогоне компонента-функции, он берет и использует переданное ему начальное значение
-- на последующих рендерах начальное значение по-прежнему создается в памяти, так как компонент - это просто JS функция, но хук инорирует его и возвращает ссылку на то самое изначальное значение
+- on the first render, it takes and uses passed to him initial value
+- on the consequent renders passed value is still created in the memory, since component is just a JS function, but hook ignores it and returns back the initial value
 
-Когда, да, есть смысл использовать `useCallback`? Когда его надо передать в дочерний компонент или в какой-нибудь кастомный хук. Если дочерний компонент обернут в `memo` или функция упомянута в зависимостях кастомного хука, то дочерний компонент и/или кастомный хук не будут прогоняться почем зря. В родительском же компоненте разницы ноль.
+When there is a benefit of using `useCallback`? When its value is needed to be passed down to child component or to some other custom hook. If child component is wrapped with `memo` or the value is mentioned in dependency array of hook, then child component and/or hook won't get re-rendered when not needed. In parent component there is no difference at all.
 
-То есть как ни крути все равно лишние десятки и сотни инстансов функций будут создаваться и тут же чистится через garbage collection. Я вообще удивлен, как подобная парадигма может быть продуктивной, но, да, стоит по-внимательнее читать доки😕
+Meaning after all redundant dozens and hundreds of function instances would be created and immediately cleaned up by garbage collector. I am really surprised, how such an architecture can be productive performance-wise, but, yes, I need to read docs more thoughtfully😕
