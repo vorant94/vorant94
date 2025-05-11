@@ -24,3 +24,20 @@ I always wondered how people come up with deck ideas, now I got it. I missed tha
 ## Accessories
 
 ## Proxies
+
+
+---
+
+# Whiteboard
+
+- digital TCG doesn't have actual "T" element, it is actually CCG
+- dailies either mean that you don't respect your own game (your players need an additional motivation to play it besides the game itself) or you are a greedy bastard (the whole game economy is built upon donating, but to keep "free to play" label you have to provide some way to progress in it naturally, but still motivate to spend money)... or you are still greedy bastard, but in another way (dailies keep players coming back more frequently so the more time they spend in game the more chances you have to advertise in-game shop)
+- in analog version main way to build a deck is buying singles you need from other players, CCG element nullifies it
+- in-game second hand market isn't impossible mission, example of successful one is Steam
+- in digital version there is no need to worry about missed triggers, no need to count counters manually, no need to bring with you required amount of tokens, no need to remember all the rules in details
+- in digital version is it harder to bluff not having an instant, when you actually have one
+- in digital version you can't redo your action even if opponent didn't do anything since then
+- a couple of games a week vs a couple of games a day
+- since it is easier to play (a couple of games a day) digital version is better used as a platform to get familiar with cards and decks, but the attention to details (like for manual countering and stuff) isn't being trained
+- also the "get familiar" point becomes less relevant because of all the 'through the omenpaths' bullshit with upcoming Spider Man set
+- ranking system is a perfect working tool to find a fitting opponent, although it adds some unnecessary pressure to progress more and get the highest rank at all cost (mono red aggro)
