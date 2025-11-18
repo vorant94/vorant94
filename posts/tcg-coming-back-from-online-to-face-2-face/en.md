@@ -41,3 +41,5 @@ I always wondered how people come up with deck ideas, now I got it. I missed tha
 - since it is easier to play (a couple of games a day) digital version is better used as a platform to get familiar with cards and decks, but the attention to details (like for manual countering and stuff) isn't being trained
 - also the "get familiar" point becomes less relevant because of all the 'through the omenpaths' bullshit with upcoming Spider Man set
 - ranking system is a perfect working tool to find a fitting opponent, although it adds some unnecessary pressure to progress more and get the highest rank at all cost (mono red aggro)
+- analog "skins" have a lot more sensory effects than digital: new deck box has its own smell and texture, new sleeves can result in different shuffling experience. while all that digital skins can bring to the table is just visuals (2d picture, 3d model, maybe some animations with sound)
+- MTG like any other digital micro-transaction game wants to own everything: cards you can use, formats you can play, events you can participate and so on
