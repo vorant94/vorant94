@@ -52,10 +52,11 @@
 
 ## Latest posts
 
-- **10.03.2024** - [Divide and conquer: right concerns to separate](posts/divide-and-conquer-right-concerns-to-separate/en.md)
-- **03.01.2024** - [TypeScript Monorepos are a mess](posts/typescript-monorepos-are-a-mess/en.md)
-- **27.11.2023** - [Dart through the eyes of a JS/TS dev](posts/dart-through-the-eyes-of-a-js-ts-dev/en.md)
-- **14.10.2023** - [War in Israel](posts/war-in-israel/en.md)
-- **05.07.2023** - [AWS Amplify Functions on steroids](posts/aws-amplify-functions-on-steroids/en.md)
-- **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](posts/pitfalls-of-aws-amplify-serverless-containers/en.md)
-- **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](posts/branding-an-angular-app-with-docker-volumes-and-css3-variables/en.md)
+- **29.05.2024** - [ useCallback - React isn't as simple as people consider it](https://vorant94.dev/en/posts/usecallback-react-isnt-as-simple-as-people-consider-it)
+- **10.03.2024** - [Divide and conquer: right concerns to separate](https://vorant94.dev/en/posts/divide-and-conquer-right-concerns-to-separate)
+- **03.01.2024** - [TypeScript Monorepos are a mess](https://vorant94.dev/en/posts/typescript-monorepos-are-a-mess)
+- **27.11.2023** - [Dart through the eyes of a JS/TS dev](https://vorant94.dev/en/posts/dart-through-the-eyes-of-a-js-ts-dev)
+- **14.10.2023** - [War in Israel](https://vorant94.dev/en/posts/war-in-israel)
+- **05.07.2023** - [AWS Amplify Functions on steroids](https://vorant94.dev/en/posts/aws-amplify-functions-on-steroids)
+- **31.01.2023** - [Pitfalls of AWS Amplify Serverless containers](https://vorant94.dev/en/posts/pitfalls-of-aws-amplify-serverless-containers)
+- **26.01.2021** - [Branding an Angular app with Docker volumes and CSS3 variables](https://vorant94.dev/en/posts/branding-an-angular-app-with-docker-volumes-and-css3-variables)

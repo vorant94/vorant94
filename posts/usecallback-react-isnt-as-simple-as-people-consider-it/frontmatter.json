@@ -1,5 +1,0 @@
-{
-	"title": "useCallback - React isn't as simple as people consider it",
-	"description": "Recently I switched camps from Angular to React. Comparing these two technologies head-to-head is quite naive thing to do. There is a long-standing perception in the tech world, that React may lack some features, but it is simple and elegant, while Angular is complex and heavy, but it is a \"batteries included\" solution. Without experience with react I had nothing to do with this perception, but now it changed. I don't agree, that React is simple and useCallback is my proof",
-	"publishedAt": "2024-05-29"
-}
